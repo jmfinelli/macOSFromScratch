@@ -27,3 +27,4 @@ fi
 EOF
 
 brew install hugo
+brew install node
