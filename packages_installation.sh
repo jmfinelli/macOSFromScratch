@@ -30,3 +30,4 @@ brew install hugo
 brew install node
 brew install gpg
 brew install grep
+brew install coreutils
