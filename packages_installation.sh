@@ -26,3 +26,4 @@ if [ oc ]; then
 fi
 EOF
 
+brew install hugo
