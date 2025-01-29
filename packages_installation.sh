@@ -31,3 +31,4 @@ brew install node
 brew install gpg
 brew install grep
 brew install coreutils
+brew install podman
