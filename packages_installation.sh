@@ -33,3 +33,5 @@ brew install grep
 brew install coreutils
 brew install podman
 brew install helm
+# used for cleaning git-crypt
+brew install bfg
