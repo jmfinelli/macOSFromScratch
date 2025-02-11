@@ -32,3 +32,4 @@ brew install gpg
 brew install grep
 brew install coreutils
 brew install podman
+brew install helm
