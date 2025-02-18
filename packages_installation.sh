@@ -35,3 +35,4 @@ brew install podman
 brew install helm
 # used for cleaning git-crypt
 brew install bfg
+brew install --cask zen-browser
