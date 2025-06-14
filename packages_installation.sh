@@ -37,3 +37,4 @@ brew install helm
 brew install bfg
 brew install --cask zen-browser
 brew install --cask gimp
+brew install --cask utm
