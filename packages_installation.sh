@@ -53,3 +53,5 @@ echo -e '\n# Allow GPG to Prompt with pinentry\nexport GPG_TTY=$(tty)' >>  ~/.zs
 
 brew install ollama
 
+brew install gnu-sed
+echo -e '\n# added to use gnu sed with the sed command\nPATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.zshrc
