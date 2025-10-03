@@ -59,3 +59,5 @@ brew install findutils
 echo -e '\n# added to use gnu bin files in macOS\nPATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.zshrc
 
 brew install git-filter-repo
+brew install --cask gitkraken
+brew install git-gui
