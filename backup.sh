@@ -8,3 +8,4 @@ cp -r ~/.logseq ~/backup/logseq
 cp ~/.vimrc ~/backup/vimrc
 cp ~/.zshrc ~/backup/zshrc
 
+# Take a copy of your feed from NetNewsWire
