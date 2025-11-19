@@ -36,6 +36,7 @@ brew install hugo
 brew install node
 brew install gpg
 brew install grep
+echo -e '\n# added to use GNU grep with command grep instead of ggrep\nPATH="$HOMEBREW_PREFIX/opt/grep/libexec/gnubin:$PATH"' >> ~/.zshrc
 brew install coreutils
 brew install podman
 brew install helm
