@@ -62,3 +62,4 @@ echo -e '\n# added to use gnu bin files in macOS\nPATH="$HOMEBREW_PREFIX/opt/gnu
 brew install git-filter-repo
 brew install --cask gitkraken
 brew install git-gui
+brew install act
