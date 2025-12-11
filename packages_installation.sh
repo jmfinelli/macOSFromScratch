@@ -63,3 +63,4 @@ brew install git-filter-repo
 brew install --cask gitkraken
 brew install git-gui
 brew install act
+brew install --cask nordvpn
