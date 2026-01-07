@@ -5,9 +5,9 @@ brew install git-crypt
 brew install --cask iterm2
 brew install java
 brew install openjdk
-brew install openjdk@17
+brew install openjdk@25
 brew install openjdk@21
-echo -e "\nexport JAVA_HOME=$(/usr/libexec/java_home -V 2>&1 | grep 17 | awk '{print $NF}')" >> ~/.zshrc
+echo -e "\nexport JAVA_HOME=$(/usr/libexec/java_home -V 2>&1 | grep 25 | awk '{print $NF}')" >> ~/.zshrc
 brew install --cask intellij-idea-ce
 brew install maven
 brew install firefox
@@ -64,3 +64,4 @@ brew install --cask gitkraken
 brew install git-gui
 brew install act
 brew install --cask nordvpn
+brew install --cask session
