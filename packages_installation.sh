@@ -38,7 +38,6 @@ brew install gpg
 brew install grep
 echo -e '\n# added to use GNU grep with command grep instead of ggrep\nPATH="$HOMEBREW_PREFIX/opt/grep/libexec/gnubin:$PATH"' >> ~/.zshrc
 brew install coreutils
-brew install podman
 brew install helm
 # used for cleaning git-crypt
 brew install bfg
@@ -65,3 +64,8 @@ brew install git-gui
 brew install act
 brew install --cask nordvpn
 brew install --cask session
+
+brew install colima
+brew install docker
+brew install docker-buildx
+sudo ln -sf $HOME/.colima/default/docker.sock /var/run/docker.sock
