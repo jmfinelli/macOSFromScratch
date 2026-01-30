@@ -65,7 +65,11 @@ brew install act
 brew install --cask nordvpn
 brew install --cask session
 
-brew install colima
-brew install docker
-brew install docker-buildx
-sudo ln -sf $HOME/.colima/default/docker.sock /var/run/docker.sock
+# docker CLI installation
+#brew install colima
+#brew install docker
+#brew install docker-buildx
+#sudo ln -sf $HOME/.colima/default/docker.sock /var/run/docker.sock
+
+# podman installation
+brew install podman
