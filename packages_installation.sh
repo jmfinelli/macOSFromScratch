@@ -74,3 +74,4 @@ brew install --cask session
 # podman installation
 brew install podman
 brew install --cask gcloud-cli
+brew install --cask cyberduck
