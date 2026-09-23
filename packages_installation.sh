@@ -75,3 +75,4 @@ brew install --cask session
 brew install podman
 brew install --cask gcloud-cli
 brew install --cask cyberduck
+brew install --cask bitwarden
