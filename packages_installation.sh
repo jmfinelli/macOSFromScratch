@@ -14,8 +14,10 @@ brew install firefox
 brew install openssh
 brew install openjdk@21
 brew install stretchly
+
 # Tunnelblick is no longer needed
-# brew install tunnelblick
+#brew install tunnelblick
+
 brew install maccy
 brew install monitorcontrol
 brew install logseq
@@ -23,6 +25,7 @@ brew install Spotify
 brew install netnewswire
 brew install logitech-options
 brew install openshift-cli
+
 # autocompletion openshift-cli
 cat >>~/.zshrc<<EOF
 
@@ -40,8 +43,10 @@ brew install grep
 echo -e '\n# added to use GNU grep with command grep instead of ggrep\nPATH="$HOMEBREW_PREFIX/opt/grep/libexec/gnubin:$PATH"' >> ~/.zshrc
 brew install coreutils
 brew install helm
+
 # used for cleaning git-crypt
 brew install bfg
+
 brew install --cask zen-browser
 brew install --cask gimp
 brew install --cask utm
@@ -60,8 +65,10 @@ brew install findutils
 echo -e '\n# added to use gnu bin files in macOS\nPATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.zshrc
 
 brew install git-filter-repo
+
 # Usually, I don't use gitkraken much
-# brew install --cask gitkraken
+#brew install --cask gitkraken
+
 brew install git-gui
 brew install act
 brew install --cask nordvpn
@@ -74,7 +81,8 @@ brew install --cask session
 #sudo ln -sf $HOME/.colima/default/docker.sock /var/run/docker.sock
 
 # podman installation
-brew install podman
+#brew install podman
+
 brew install --cask gcloud-cli
 brew install --cask cyberduck
 brew install --cask bitwarden
