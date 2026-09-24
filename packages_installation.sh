@@ -14,7 +14,8 @@ brew install firefox
 brew install openssh
 brew install openjdk@21
 brew install stretchly
-brew install tunnelblick
+# Tunnelblick is no longer needed
+# brew install tunnelblick
 brew install maccy
 brew install monitorcontrol
 brew install logseq
