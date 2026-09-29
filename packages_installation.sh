@@ -1,14 +1,16 @@
-brew install zsh
-echo -e '\nZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
 brew install git
-brew install git-crypt
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+echo -e '\nZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
+#brew install git-crypt
 brew install --cask iterm2
 brew install java
 brew install openjdk
 brew install openjdk@25
 brew install openjdk@21
 echo -e "\nexport JAVA_HOME=$(/usr/libexec/java_home -V 2>&1 | grep 25 | awk '{print $NF}')" >> ~/.zshrc
-brew install --cask intellij-idea-ce
+brew install --cask intellij-idea
 brew install maven
 brew install firefox
 brew install openssh
