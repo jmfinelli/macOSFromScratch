@@ -3,6 +3,23 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 echo -e '\nZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# zsh-completions
+git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+# Add to ~/.zshrc before sourcing oh-my-zsh:
+#fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+#autoload -U compinit && compinit
+#source $ZSH/oh-my-zsh.sh
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+brew install --cask font-hack-nerd-font
+brew install --cask font-jetbrains-mono-nerd-font
+brew install tmux
+
+brew install gh
 #brew install git-crypt
 brew install --cask iterm2
 brew install java
