@@ -13,7 +13,7 @@ brew install maven
 brew install firefox
 brew install openssh
 brew install openjdk@21
-brew install stretchly
+brew install --cask breaktimer
 
 # Tunnelblick is no longer needed
 #brew install tunnelblick
