@@ -42,7 +42,7 @@ brew install monitorcontrol
 brew install logseq
 brew install Spotify
 brew install netnewswire
-brew install logitech-options
+brew install --cask logi-options+
 brew install openshift-cli
 
 # autocompletion openshift-cli
