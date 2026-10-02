@@ -126,3 +126,6 @@ brew install --cask bitwarden
 # AI
 brew install nono
 brew install anomalyco/tap/opencode-v2
+
+brew install --cask gcloud-cli
+gcloud init
