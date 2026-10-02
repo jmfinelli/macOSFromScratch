@@ -22,6 +22,7 @@ brew install tmux
 
 brew install gh
 #brew install git-crypt
+brew install --cask ghostty
 brew install --cask iterm2
 brew install java
 brew install openjdk
