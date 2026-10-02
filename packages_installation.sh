@@ -9,9 +9,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # zsh-completions
 git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 # Add to ~/.zshrc before sourcing oh-my-zsh:
-#fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
-#autoload -U compinit && compinit
-#source $ZSH/oh-my-zsh.sh
+# fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+# autoload -U compinit && compinit
+# source $ZSH/oh-my-zsh.sh
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
@@ -19,7 +19,7 @@ git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM
 brew install --cask font-hack-nerd-font
 brew install --cask font-jetbrains-mono-nerd-font
 # No needed, ghostty already provides what I want
-#brew install tmux
+# brew install tmux
 
 brew install gh
 #brew install git-crypt
@@ -35,20 +35,24 @@ pyenv init --install
 # pyenv latest -k 3
 # pyenv install 3.14.8
 
-brew install java
-brew install openjdk
-brew install openjdk@25
-brew install openjdk@21
-echo -e "\nexport JAVA_HOME=$(/usr/libexec/java_home -V 2>&1 | grep 25 | awk '{print $NF}')" >> ~/.zshrc
+# Java installation
+# [more info](https://sdkman.io/install/)
+curl -s https://get.sdkman.io | zsh
+sdk install java
+# brew install java
+# brew install openjdk
+# brew install openjdk@25
+# brew install openjdk@21
+# echo -e "\nexport JAVA_HOME=$(/usr/libexec/java_home -V 2>&1 | grep 25 | awk '{print $NF}')" >> ~/.zshrc
+
 brew install --cask intellij-idea
 brew install maven
 brew install firefox
 brew install openssh
-brew install openjdk@21
 brew install --cask breaktimer
 
 # Tunnelblick is no longer needed
-#brew install tunnelblick
+# brew install tunnelblick
 
 brew install maccy
 brew install monitorcontrol
@@ -99,7 +103,7 @@ echo -e '\n# added to use gnu bin files in macOS\nPATH="$HOMEBREW_PREFIX/opt/gnu
 brew install git-filter-repo
 
 # Usually, I don't use gitkraken much
-#brew install --cask gitkraken
+# brew install --cask gitkraken
 
 brew install git-gui
 brew install act
@@ -107,13 +111,13 @@ brew install --cask nordvpn
 brew install --cask session
 
 # docker CLI installation
-#brew install colima
-#brew install docker
-#brew install docker-buildx
-#sudo ln -sf $HOME/.colima/default/docker.sock /var/run/docker.sock
+# brew install colima
+# brew install docker
+# brew install docker-buildx
+# sudo ln -sf $HOME/.colima/default/docker.sock /var/run/docker.sock
 
 # podman installation
-#brew install podman
+# brew install podman
 
 brew install --cask gcloud-cli
 brew install --cask cyberduck
