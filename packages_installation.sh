@@ -25,6 +25,16 @@ brew install gh
 #brew install git-crypt
 brew install --cask ghostty
 brew install --cask iterm2
+
+# pyenv installation
+# [more info](https://github.com/pyenv/pyenv)
+brew install pyenv
+brew install openssl@3 readline sqlite3 xz tcl-tk@8 libb2 zstd zlib pkgconfig
+pyenv init --install
+# To install a specific version of python, e.g. 3.14.8:
+# pyenv latest -k 3
+# pyenv install 3.14.8
+
 brew install java
 brew install openjdk
 brew install openjdk@25
