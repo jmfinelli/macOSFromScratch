@@ -18,7 +18,8 @@ git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM
 
 brew install --cask font-hack-nerd-font
 brew install --cask font-jetbrains-mono-nerd-font
-brew install tmux
+# No needed, ghostty already provides what I want
+#brew install tmux
 
 brew install gh
 #brew install git-crypt
