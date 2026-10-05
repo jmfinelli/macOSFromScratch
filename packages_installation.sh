@@ -129,3 +129,5 @@ brew install anomalyco/tap/opencode-v2
 
 brew install --cask gcloud-cli
 gcloud init
+
+brew install --cask claude-code
