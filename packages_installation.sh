@@ -126,8 +126,9 @@ brew install --cask bitwarden
 # AI
 brew install nono
 brew install anomalyco/tap/opencode-v2
-
+curl -fsSL https://pi.dev/install.sh | sh
+# GCloud
 brew install --cask gcloud-cli
 gcloud init
-
+# Claude
 brew install --cask claude-code
