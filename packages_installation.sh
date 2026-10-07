@@ -122,7 +122,6 @@ brew install --cask session
 brew install --cask gcloud-cli
 brew install --cask cyberduck
 brew install --cask bitwarden
-brew install bitwarden-cli
 
 # AI
 brew install nono
