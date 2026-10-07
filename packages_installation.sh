@@ -132,3 +132,5 @@ brew install --cask gcloud-cli
 gcloud init
 # Claude
 brew install --cask claude-code
+# Skills
+# https://github.com/obra/superpowers#opencode
