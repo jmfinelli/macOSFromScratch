@@ -7,7 +7,15 @@ set ttimeoutlen=10
 " ==============================================================================
 " Start / End of Line (Cmd + Left / Cmd + Right)
 " ==============================================================================
-" iTerm2 sends 0x01 (Ctrl+A) for Cmd+Left and 0x05 (Ctrl+E) for Cmd+Right
+" Lowercase mappings (required when Kitty keyboard protocol is active)
+noremap  <C-a> ^
+noremap  <C-e> $
+inoremap <C-a> <C-O>^
+inoremap <C-e> <C-O>A
+vnoremap <C-a> ^
+vnoremap <C-e> $
+
+" Uppercase fallbacks
 noremap  <C-A> ^
 noremap  <C-E> $
 inoremap <C-A> <C-O>^
@@ -57,3 +65,4 @@ inoremap <M-b> <C-O>b
 inoremap <M-f> <C-O>w
 vnoremap <M-b> b
 vnoremap <M-f> w
+
