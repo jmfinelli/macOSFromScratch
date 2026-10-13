@@ -174,6 +174,7 @@ step "gh (GitHub CLI)"  brew install gh
 step "openssh"          brew install openssh
 step "gpg"              brew install gpg
 step "pinentry"         brew install pinentry
+step "wget"             brew install wget
 
 setup_gpg() {
     mkdir -p ~/.gnupg
