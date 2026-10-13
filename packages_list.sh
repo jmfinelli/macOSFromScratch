@@ -50,6 +50,7 @@ brew install --cask intellij-idea
 brew install firefox
 brew install openssh
 brew install --cask breaktimer
+brew install wget
 
 # Tunnelblick is no longer needed
 # brew install tunnelblick
