@@ -1,3 +1,9 @@
+# Homebrew installation
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew tap domt4/autoupdate
+brew trust --command domt4/autoupdate/autoupdate
+brew autoupdate start 15:00 --upgrade --cleanup
+
 brew install git
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

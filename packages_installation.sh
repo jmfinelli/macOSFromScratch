@@ -47,6 +47,26 @@ summary() {
 }
 
 # ============================================================
+# Homebrew
+# ============================================================
+printf "\n=== Homebrew ===\n"
+
+install_homebrew() {
+    if command -v brew &>/dev/null; then
+        printf "   already installed, skipping\n"; return 0
+    fi
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+}
+step "homebrew" install_homebrew
+
+setup_autoupdate() {
+    brew tap domt4/autoupdate
+    brew trust --command domt4/autoupdate/autoupdate
+    brew autoupdate start 15:00 --upgrade --cleanup
+}
+step "brew autoupdate" setup_autoupdate
+
+# ============================================================
 # Shell: zsh, oh-my-zsh, plugins, fonts
 # ============================================================
 printf "\n=== Shell ===\n"
