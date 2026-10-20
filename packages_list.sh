@@ -143,3 +143,9 @@ brew install --cask claude-code
 # https://github.com/obra/superpowers#opencode
 
 brew install zapp
+brew install fd
+brew install fzf
+brew install ripgrep
+brew install bat
+brew install lsd
+

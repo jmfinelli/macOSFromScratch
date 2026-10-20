@@ -277,6 +277,11 @@ step "bitwarden"        brew install --cask bitwarden
 step "nordvpn"          brew install --cask nordvpn
 step "session"          brew install --cask session
 step "zapp"             brew install zapp
+step "fd"               brew install fd
+step "fzf"              brew install fzf
+step "ripgrep"          brew install ripgrep
+step "bat"              brew install bat
+step "lsd"              brew install lsd
 
 # ============================================================
 # Cloud
