@@ -276,6 +276,7 @@ step "cyberduck"        brew install --cask cyberduck
 step "bitwarden"        brew install --cask bitwarden
 step "nordvpn"          brew install --cask nordvpn
 step "session"          brew install --cask session
+step "zapp"             brew install zapp
 
 # ============================================================
 # Cloud

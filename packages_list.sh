@@ -141,3 +141,5 @@ gcloud init
 brew install --cask claude-code
 # Skills
 # https://github.com/obra/superpowers#opencode
+
+brew install zapp
